@@ -1,2 +1,2 @@
 # Overlay-RW
-Overlappung of random walks
+Overlapping of random walks
