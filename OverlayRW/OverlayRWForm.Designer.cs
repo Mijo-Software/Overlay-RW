@@ -32,30 +32,30 @@
 			this.buttonDraw1RW = new System.Windows.Forms.Button();
 			this.checkBoxDam1RW = new System.Windows.Forms.CheckBox();
 			this.numericUpDown1RW = new System.Windows.Forms.NumericUpDown();
-			this.labelSpan1RW = new System.Windows.Forms.Label();
+			this.label1 = new System.Windows.Forms.Label();
 			this.pictureBox1RW = new System.Windows.Forms.PictureBox();
-			this.label1RW = new System.Windows.Forms.Label();
+			this.label5 = new System.Windows.Forms.Label();
 			this.buttonShowList3RW = new System.Windows.Forms.Button();
 			this.buttonDraw3RW = new System.Windows.Forms.Button();
 			this.checkBoxDam3RW = new System.Windows.Forms.CheckBox();
 			this.numericUpDown3RW = new System.Windows.Forms.NumericUpDown();
-			this.labelSpan3RW = new System.Windows.Forms.Label();
+			this.label4 = new System.Windows.Forms.Label();
 			this.pictureBox3RW = new System.Windows.Forms.PictureBox();
 			this.buttonShowList2RW = new System.Windows.Forms.Button();
 			this.buttonDraw2RW = new System.Windows.Forms.Button();
 			this.checkBoxDam2RW = new System.Windows.Forms.CheckBox();
 			this.numericUpDown2RW = new System.Windows.Forms.NumericUpDown();
-			this.labelSpan2RW = new System.Windows.Forms.Label();
+			this.label2 = new System.Windows.Forms.Label();
 			this.pictureBox2RW = new System.Windows.Forms.PictureBox();
 			this.buttonShowList4RW = new System.Windows.Forms.Button();
 			this.buttonDraw4RW = new System.Windows.Forms.Button();
 			this.checkBoxDam4RW = new System.Windows.Forms.CheckBox();
 			this.numericUpDown4RW = new System.Windows.Forms.NumericUpDown();
-			this.labelSpan4RW = new System.Windows.Forms.Label();
+			this.label3 = new System.Windows.Forms.Label();
 			this.pictureBox4RW = new System.Windows.Forms.PictureBox();
-			this.label3RW = new System.Windows.Forms.Label();
-			this.label2RW = new System.Windows.Forms.Label();
-			this.label4RW = new System.Windows.Forms.Label();
+			this.label6 = new System.Windows.Forms.Label();
+			this.label7 = new System.Windows.Forms.Label();
+			this.label8 = new System.Windows.Forms.Label();
 			this.buttonDrawOverlay = new System.Windows.Forms.Button();
 			this.pictureBoxOverlay = new System.Windows.Forms.PictureBox();
 			this.label9 = new System.Windows.Forms.Label();
@@ -113,21 +113,20 @@
 			this.numericUpDown1RW.Name = "numericUpDown1RW";
 			this.numericUpDown1RW.Size = new System.Drawing.Size(41, 20);
 			this.numericUpDown1RW.TabIndex = 2;
-			this.numericUpDown1RW.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.numericUpDown1RW.Value = new decimal(new int[] {
             4,
             0,
             0,
             0});
 			// 
-			// labelSpan1RW
+			// label1
 			// 
-			this.labelSpan1RW.AutoSize = true;
-			this.labelSpan1RW.Location = new System.Drawing.Point(15, 151);
-			this.labelSpan1RW.Name = "labelSpan1RW";
-			this.labelSpan1RW.Size = new System.Drawing.Size(106, 13);
-			this.labelSpan1RW.TabIndex = 1;
-			this.labelSpan1RW.Text = "Ausbreitungsspanne:";
+			this.label1.AutoSize = true;
+			this.label1.Location = new System.Drawing.Point(15, 151);
+			this.label1.Name = "label1";
+			this.label1.Size = new System.Drawing.Size(106, 13);
+			this.label1.TabIndex = 1;
+			this.label1.Text = "Ausbreitungsspanne:";
 			// 
 			// pictureBox1RW
 			// 
@@ -138,14 +137,14 @@
 			this.pictureBox1RW.TabIndex = 10;
 			this.pictureBox1RW.TabStop = false;
 			// 
-			// label1RW
+			// label5
 			// 
-			this.label1RW.AutoSize = true;
-			this.label1RW.Location = new System.Drawing.Point(15, 16);
-			this.label1RW.Name = "label1RW";
-			this.label1RW.Size = new System.Drawing.Size(87, 13);
-			this.label1RW.TabIndex = 0;
-			this.label1RW.Text = "1. Random Walk";
+			this.label5.AutoSize = true;
+			this.label5.Location = new System.Drawing.Point(15, 16);
+			this.label5.Name = "label5";
+			this.label5.Size = new System.Drawing.Size(87, 13);
+			this.label5.TabIndex = 0;
+			this.label5.Text = "1. Random Walk";
 			// 
 			// buttonShowList3RW
 			// 
@@ -171,7 +170,7 @@
 			// checkBoxDam3RW
 			// 
 			this.checkBoxDam3RW.AutoSize = true;
-			this.checkBoxDam3RW.Location = new System.Drawing.Point(18, 378);
+			this.checkBoxDam3RW.Location = new System.Drawing.Point(12, 378);
 			this.checkBoxDam3RW.Name = "checkBoxDam3RW";
 			this.checkBoxDam3RW.Size = new System.Drawing.Size(85, 17);
 			this.checkBoxDam3RW.TabIndex = 16;
@@ -180,7 +179,7 @@
 			// 
 			// numericUpDown3RW
 			// 
-			this.numericUpDown3RW.Location = new System.Drawing.Point(127, 347);
+			this.numericUpDown3RW.Location = new System.Drawing.Point(127, 348);
 			this.numericUpDown3RW.Maximum = new decimal(new int[] {
             10,
             0,
@@ -189,21 +188,20 @@
 			this.numericUpDown3RW.Name = "numericUpDown3RW";
 			this.numericUpDown3RW.Size = new System.Drawing.Size(41, 20);
 			this.numericUpDown3RW.TabIndex = 14;
-			this.numericUpDown3RW.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.numericUpDown3RW.Value = new decimal(new int[] {
             2,
             0,
             0,
             0});
 			// 
-			// labelSpan3RW
+			// label4
 			// 
-			this.labelSpan3RW.AutoSize = true;
-			this.labelSpan3RW.Location = new System.Drawing.Point(15, 348);
-			this.labelSpan3RW.Name = "labelSpan3RW";
-			this.labelSpan3RW.Size = new System.Drawing.Size(106, 13);
-			this.labelSpan3RW.TabIndex = 13;
-			this.labelSpan3RW.Text = "Ausbreitungsspanne:";
+			this.label4.AutoSize = true;
+			this.label4.Location = new System.Drawing.Point(15, 348);
+			this.label4.Name = "label4";
+			this.label4.Size = new System.Drawing.Size(106, 13);
+			this.label4.TabIndex = 13;
+			this.label4.Text = "Ausbreitungsspanne:";
 			// 
 			// pictureBox3RW
 			// 
@@ -256,21 +254,20 @@
 			this.numericUpDown2RW.Name = "numericUpDown2RW";
 			this.numericUpDown2RW.Size = new System.Drawing.Size(41, 20);
 			this.numericUpDown2RW.TabIndex = 8;
-			this.numericUpDown2RW.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.numericUpDown2RW.Value = new decimal(new int[] {
             3,
             0,
             0,
             0});
 			// 
-			// labelSpan2RW
+			// label2
 			// 
-			this.labelSpan2RW.AutoSize = true;
-			this.labelSpan2RW.Location = new System.Drawing.Point(235, 151);
-			this.labelSpan2RW.Name = "labelSpan2RW";
-			this.labelSpan2RW.Size = new System.Drawing.Size(106, 13);
-			this.labelSpan2RW.TabIndex = 7;
-			this.labelSpan2RW.Text = "Ausbreitungsspanne:";
+			this.label2.AutoSize = true;
+			this.label2.Location = new System.Drawing.Point(235, 151);
+			this.label2.Name = "label2";
+			this.label2.Size = new System.Drawing.Size(106, 13);
+			this.label2.TabIndex = 7;
+			this.label2.Text = "Ausbreitungsspanne:";
 			// 
 			// pictureBox2RW
 			// 
@@ -323,21 +320,20 @@
 			this.numericUpDown4RW.Name = "numericUpDown4RW";
 			this.numericUpDown4RW.Size = new System.Drawing.Size(41, 20);
 			this.numericUpDown4RW.TabIndex = 20;
-			this.numericUpDown4RW.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.numericUpDown4RW.Value = new decimal(new int[] {
             1,
             0,
             0,
             0});
 			// 
-			// labelSpan4RW
+			// label3
 			// 
-			this.labelSpan4RW.AutoSize = true;
-			this.labelSpan4RW.Location = new System.Drawing.Point(234, 350);
-			this.labelSpan4RW.Name = "labelSpan4RW";
-			this.labelSpan4RW.Size = new System.Drawing.Size(106, 13);
-			this.labelSpan4RW.TabIndex = 19;
-			this.labelSpan4RW.Text = "Ausbreitungsspanne:";
+			this.label3.AutoSize = true;
+			this.label3.Location = new System.Drawing.Point(234, 350);
+			this.label3.Name = "label3";
+			this.label3.Size = new System.Drawing.Size(106, 13);
+			this.label3.TabIndex = 19;
+			this.label3.Text = "Ausbreitungsspanne:";
 			// 
 			// pictureBox4RW
 			// 
@@ -348,32 +344,32 @@
 			this.pictureBox4RW.TabIndex = 29;
 			this.pictureBox4RW.TabStop = false;
 			// 
-			// label3RW
+			// label6
 			// 
-			this.label3RW.AutoSize = true;
-			this.label3RW.Location = new System.Drawing.Point(15, 215);
-			this.label3RW.Name = "label3RW";
-			this.label3RW.Size = new System.Drawing.Size(87, 13);
-			this.label3RW.TabIndex = 12;
-			this.label3RW.Text = "3. Random Walk";
+			this.label6.AutoSize = true;
+			this.label6.Location = new System.Drawing.Point(15, 215);
+			this.label6.Name = "label6";
+			this.label6.Size = new System.Drawing.Size(87, 13);
+			this.label6.TabIndex = 12;
+			this.label6.Text = "3. Random Walk";
 			// 
-			// label2RW
+			// label7
 			// 
-			this.label2RW.AutoSize = true;
-			this.label2RW.Location = new System.Drawing.Point(235, 16);
-			this.label2RW.Name = "label2RW";
-			this.label2RW.Size = new System.Drawing.Size(87, 13);
-			this.label2RW.TabIndex = 6;
-			this.label2RW.Text = "2. Random Walk";
+			this.label7.AutoSize = true;
+			this.label7.Location = new System.Drawing.Point(235, 16);
+			this.label7.Name = "label7";
+			this.label7.Size = new System.Drawing.Size(87, 13);
+			this.label7.TabIndex = 6;
+			this.label7.Text = "2. Random Walk";
 			// 
-			// label4RW
+			// label8
 			// 
-			this.label4RW.AutoSize = true;
-			this.label4RW.Location = new System.Drawing.Point(235, 215);
-			this.label4RW.Name = "label4RW";
-			this.label4RW.Size = new System.Drawing.Size(87, 13);
-			this.label4RW.TabIndex = 18;
-			this.label4RW.Text = "4. Random Walk";
+			this.label8.AutoSize = true;
+			this.label8.Location = new System.Drawing.Point(235, 215);
+			this.label8.Name = "label8";
+			this.label8.Size = new System.Drawing.Size(87, 13);
+			this.label8.TabIndex = 18;
+			this.label8.Text = "4. Random Walk";
 			// 
 			// buttonDrawOverlay
 			// 
@@ -424,33 +420,33 @@
 			this.Controls.Add(this.label9);
 			this.Controls.Add(this.buttonDrawOverlay);
 			this.Controls.Add(this.pictureBoxOverlay);
-			this.Controls.Add(this.label4RW);
-			this.Controls.Add(this.label2RW);
-			this.Controls.Add(this.label3RW);
+			this.Controls.Add(this.label8);
+			this.Controls.Add(this.label7);
+			this.Controls.Add(this.label6);
 			this.Controls.Add(this.buttonShowList4RW);
 			this.Controls.Add(this.buttonDraw4RW);
 			this.Controls.Add(this.checkBoxDam4RW);
 			this.Controls.Add(this.numericUpDown4RW);
-			this.Controls.Add(this.labelSpan4RW);
+			this.Controls.Add(this.label3);
 			this.Controls.Add(this.pictureBox4RW);
 			this.Controls.Add(this.buttonShowList2RW);
 			this.Controls.Add(this.buttonDraw2RW);
 			this.Controls.Add(this.checkBoxDam2RW);
 			this.Controls.Add(this.numericUpDown2RW);
-			this.Controls.Add(this.labelSpan2RW);
+			this.Controls.Add(this.label2);
 			this.Controls.Add(this.pictureBox2RW);
 			this.Controls.Add(this.buttonShowList3RW);
 			this.Controls.Add(this.buttonDraw3RW);
 			this.Controls.Add(this.checkBoxDam3RW);
 			this.Controls.Add(this.numericUpDown3RW);
-			this.Controls.Add(this.labelSpan3RW);
+			this.Controls.Add(this.label4);
 			this.Controls.Add(this.pictureBox3RW);
-			this.Controls.Add(this.label1RW);
+			this.Controls.Add(this.label5);
 			this.Controls.Add(this.buttonShowList1RW);
 			this.Controls.Add(this.buttonDraw1RW);
 			this.Controls.Add(this.checkBoxDam1RW);
 			this.Controls.Add(this.numericUpDown1RW);
-			this.Controls.Add(this.labelSpan1RW);
+			this.Controls.Add(this.label1);
 			this.Controls.Add(this.pictureBox1RW);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
 			this.MaximizeBox = false;
@@ -478,30 +474,30 @@
     private System.Windows.Forms.Button buttonDraw1RW;
     private System.Windows.Forms.CheckBox checkBoxDam1RW;
     private System.Windows.Forms.NumericUpDown numericUpDown1RW;
-    private System.Windows.Forms.Label labelSpan1RW;
+    private System.Windows.Forms.Label label1;
     private System.Windows.Forms.PictureBox pictureBox1RW;
-    private System.Windows.Forms.Label label1RW;
+    private System.Windows.Forms.Label label5;
     private System.Windows.Forms.Button buttonShowList3RW;
     private System.Windows.Forms.Button buttonDraw3RW;
     private System.Windows.Forms.CheckBox checkBoxDam3RW;
     private System.Windows.Forms.NumericUpDown numericUpDown3RW;
-    private System.Windows.Forms.Label labelSpan3RW;
+    private System.Windows.Forms.Label label4;
     private System.Windows.Forms.PictureBox pictureBox3RW;
     private System.Windows.Forms.Button buttonShowList2RW;
     private System.Windows.Forms.Button buttonDraw2RW;
     private System.Windows.Forms.CheckBox checkBoxDam2RW;
     private System.Windows.Forms.NumericUpDown numericUpDown2RW;
-    private System.Windows.Forms.Label labelSpan2RW;
+    private System.Windows.Forms.Label label2;
     private System.Windows.Forms.PictureBox pictureBox2RW;
     private System.Windows.Forms.Button buttonShowList4RW;
     private System.Windows.Forms.Button buttonDraw4RW;
     private System.Windows.Forms.CheckBox checkBoxDam4RW;
     private System.Windows.Forms.NumericUpDown numericUpDown4RW;
-    private System.Windows.Forms.Label labelSpan4RW;
+    private System.Windows.Forms.Label label3;
     private System.Windows.Forms.PictureBox pictureBox4RW;
-    private System.Windows.Forms.Label label3RW;
-    private System.Windows.Forms.Label label2RW;
-    private System.Windows.Forms.Label label4RW;
+    private System.Windows.Forms.Label label6;
+    private System.Windows.Forms.Label label7;
+    private System.Windows.Forms.Label label8;
     private System.Windows.Forms.Button buttonDrawOverlay;
     private System.Windows.Forms.PictureBox pictureBoxOverlay;
     private System.Windows.Forms.Label label9;
