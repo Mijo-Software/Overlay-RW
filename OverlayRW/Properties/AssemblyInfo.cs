@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("MJ")]
 [assembly: AssemblyProduct("OverlayRW")]
-[assembly: AssemblyCopyright("Copyright © MJ 2011-2019")]
+[assembly: AssemblyCopyright("Copyright © MJ 2011")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
